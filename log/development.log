@@ -1,0 +1,25 @@
+Initialization the database connection for mysql
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
+[33m[2019-01-11 15:03:27][0m  [36;1m[2.40ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:03:27','2019-01-11 15:03:27')  
+[36;31m[1 rows affected or returned ][0m 
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
+[33m[2019-01-11 15:03:27][0m  [36;1m[0.86ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '62' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
+[36;31m[1 rows affected or returned ][0m 
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
+[33m[2019-01-11 15:04:06][0m  [36;1m[0.63ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:04:06','2019-01-11 15:04:06')  
+[36;31m[1 rows affected or returned ][0m 
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
+[33m[2019-01-11 15:04:06][0m  [36;1m[0.77ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '63' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
+[36;31m[1 rows affected or returned ][0m 
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
+[33m[2019-01-11 15:04:09][0m  [36;1m[0.74ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:04:09','2019-01-11 15:04:09')  
+[36;31m[1 rows affected or returned ][0m 
+
+[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
+[33m[2019-01-11 15:04:09][0m  [36;1m[1.14ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '64' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
+[36;31m[1 rows affected or returned ][0m 

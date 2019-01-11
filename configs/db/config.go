@@ -1,47 +1,35 @@
 package db
 
 import(
-	"demo_gorm/configs"
+	"log"
 	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"fmt"
 )
 
-var Conn *gorm.DB
+type Dbinterface interface{
+	initDbConf()
+}
 
 var err error
 
-type dbConf struct{
-	database string
-	host string
-	username string
-	password string
-	port int
+type DbConf struct{
+	Database string
+	Host string
+	Username string
+	Password string
+	Port int
 }
 
-var DbConf dbConf
+var MysqlConn *gorm.DB
 
 func init(){
-	initDbConf()
-	fmt.Println("Initialization the database connection")
-	Conn, err = gorm.Open("mysql", buildconnectionString())	
-	Conn.LogMode(true)
-	config.RaiseException(err)
+	log.Println("Initialization the database connection")
+	intiMySql()	
 }
 
-func initDbConf(){
-	var c config.Conf
-	data := c.FetchConfig("/Users/unbxd/go-workspace/src/demo_gorm/configs/db/config.yml")
-	DbConf = dbConf{
-			data["database"].(string),
-			data["host"].(string),
-			data["username"].(string),
-			data["password"].(string),
-			data["port"].(int),
-		}
+func intiMySql(){
+	var dbInfc Dbinterface
+	msqlConf := MysqlConf{}
+	dbInfc = &msqlConf
+	dbInfc.initDbConf()	
+	MysqlConn = msqlConf.Conn
 }
-
-func buildconnectionString() string{
-	return fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true", DbConf.username, DbConf.password, DbConf.host, DbConf.port, DbConf.database)
-}
-
