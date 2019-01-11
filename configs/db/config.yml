@@ -1,0 +1,13 @@
+development:
+  database: console_development
+  host: localhost
+  username: console_user
+  password: console_password
+  port: 3306
+
+test:
+  database: console_test
+  host: localhost
+  username: console_user
+  password: console_password  
+  port: 3306
