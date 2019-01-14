@@ -1,25 +1,1966 @@
-Initialization the database connection for mysql
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
-[33m[2019-01-11 15:03:27][0m  [36;1m[2.40ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:03:27','2019-01-11 15:03:27')  
-[36;31m[1 rows affected or returned ][0m 
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
-[33m[2019-01-11 15:03:27][0m  [36;1m[0.86ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '62' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
-[36;31m[1 rows affected or returned ][0m 
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
-[33m[2019-01-11 15:04:06][0m  [36;1m[0.63ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:04:06','2019-01-11 15:04:06')  
-[36;31m[1 rows affected or returned ][0m 
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
-[33m[2019-01-11 15:04:06][0m  [36;1m[0.77ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '63' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
-[36;31m[1 rows affected or returned ][0m 
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:35)[0m 
-[33m[2019-01-11 15:04:09][0m  [36;1m[0.74ms][0m  INSERT INTO `feature_configs` (`feature_name`,`enable`,`updated_at`,`created_at`) VALUES ('AbTestReports','true','2019-01-11 15:04:09','2019-01-11 15:04:09')  
-[36;31m[1 rows affected or returned ][0m 
-
-[35m(/Users/unbxd/go-workspace/src/demo_gorm/app/models/feature.go:36)[0m 
-[33m[2019-01-11 15:04:09][0m  [36;1m[1.14ms][0m  SELECT * FROM `feature_configs`  WHERE `feature_configs`.`id` = '64' AND ((`feature_configs`.`feature_name` = 'AbTestReports')) ORDER BY `feature_configs`.`id` ASC LIMIT 1  
-[36;31m[1 rows affected or returned ][0m 
+2019/01/14 15:21:05 This is a test log entry
+2019/01/14 15:21:12 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:21:12 Completed Request with  Response Time: 4.982922ms
+2019/01/14 15:22:00 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:22:00 Completed Request with  Response Time: 2.515647ms
+2019/01/14 15:22:02 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:22:02 Completed Request with  Response Time: 1.580212ms
+2019/01/14 15:22:41 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:22:41 Completed Request with  Response Time: 2.487322ms
+2019/01/14 15:26:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:03 Completed Request with  Response Time: 4.418235ms
+2019/01/14 15:26:13 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:13 Completed Request with  Response Time: 1.36943ms
+2019/01/14 15:26:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:51 Completed Request with  Response Time: 10.39248ms
+2019/01/14 15:26:53 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:53 Completed Request with  Response Time: 1.45419ms
+2019/01/14 15:26:54 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:54 Completed Request with  Response Time: 1.480714ms
+2019/01/14 15:26:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:55 Completed Request with  Response Time: 1.437124ms
+2019/01/14 15:26:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:56 Completed Request with  Response Time: 1.745425ms
+2019/01/14 15:26:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:56 Completed Request with  Response Time: 2.008154ms
+2019/01/14 15:26:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:57 Completed Request with  Response Time: 1.852649ms
+2019/01/14 15:26:58 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:58 Completed Request with  Response Time: 1.499984ms
+2019/01/14 15:26:58 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:58 Completed Request with  Response Time: 3.592059ms
+2019/01/14 15:26:59 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:26:59 Completed Request with  Response Time: 1.255841ms
+2019/01/14 15:27:00 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:27:00 Completed Request with  Response Time: 2.142666ms
+2019/01/14 15:27:01 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:27:01 Completed Request with  Response Time: 3.021322ms
+2019/01/14 15:29:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:17 Completed Request with  Response Time: 2.128847ms
+2019/01/14 15:29:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:17 Completed Request with  Response Time: 2.321187ms
+2019/01/14 15:29:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:17 Completed Request with  Response Time: 2.502258ms
+2019/01/14 15:29:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:17 Completed Request with  Response Time: 1.475819ms
+2019/01/14 15:29:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:17 Completed Request with  Response Time: 1.196212ms
+2019/01/14 15:29:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:25 Completed Request with  Response Time: 1.993322ms
+2019/01/14 15:29:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:25 Completed Request with  Response Time: 2.903264ms
+2019/01/14 15:29:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:25 Completed Request with  Response Time: 2.276393ms
+2019/01/14 15:29:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:25 Completed Request with  Response Time: 2.562203ms
+2019/01/14 15:29:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:25 Completed Request with  Response Time: 2.441187ms
+2019/01/14 15:29:30 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:30 Completed Request with  Response Time: 153.47182ms
+2019/01/14 15:29:30 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:30 Completed Request with  Response Time: 2.581089ms
+2019/01/14 15:29:30 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:30 Completed Request with  Response Time: 2.480036ms
+2019/01/14 15:29:30 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:30 Completed Request with  Response Time: 1.441607ms
+2019/01/14 15:29:30 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:30 Completed Request with  Response Time: 2.067959ms
+2019/01/14 15:29:39 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:39 Completed Request with  Response Time: 1.827657ms
+2019/01/14 15:29:39 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:39 Completed Request with  Response Time: 2.376852ms
+2019/01/14 15:29:39 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:39 Completed Request with  Response Time: 1.803968ms
+2019/01/14 15:29:39 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:39 Completed Request with  Response Time: 3.65724ms
+2019/01/14 15:29:39 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:29:39 Completed Request with  Response Time: 1.149997ms
+2019/01/14 15:31:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:03 Completed Request with  Response Time: 2.080024ms
+2019/01/14 15:31:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:17 Completed Request with  Response Time: 1.839513ms
+2019/01/14 15:31:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:17 Completed Request with  Response Time: 2.091673ms
+2019/01/14 15:31:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:17 Completed Request with  Response Time: 2.21157ms
+2019/01/14 15:31:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:17 Completed Request with  Response Time: 4.956731ms
+2019/01/14 15:31:17 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:31:17 Completed Request with  Response Time: 1.241953ms
+2019/01/14 15:33:22 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:22 Completed Request with  Response Time: 3.273817ms
+2019/01/14 15:33:22 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:22 Completed Request with  Response Time: 231.584µs
+2019/01/14 15:33:22 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:22 Completed Request with  Response Time: 252.084µs
+2019/01/14 15:33:22 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:22 Completed Request with  Response Time: 256.77µs
+2019/01/14 15:33:22 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:22 Completed Request with  Response Time: 320.045µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 213.079µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 211.039µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 201.999µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 250.962µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 291.857µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 591.632µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 180.563µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 328.64µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 414.789µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 184.698µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 190.473µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 377.477µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 369.003µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 205.256µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 508.17µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 383.668µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 277.451µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 229.217µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 647.468µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 240.989µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 596.362µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 219.777µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 206.108µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 338.031µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 267.631µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 287.078µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 217.981µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 436.926µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 230.381µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 407.536µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 326.936µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 229.594µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 523.392µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 447.466µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 209.207µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 172.019µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 212.01µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 478.331µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 229.115µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 250.935µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 226.317µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 189.469µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 415.84µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 204.019µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 237.413µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 1.389728ms
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 390.398µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 213.335µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 461.233µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 466.38µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 251.676µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 215.423µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 171.572µs
+2019/01/14 15:33:23 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:23 Completed Request with  Response Time: 172.37µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 192.116µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 471.109µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 450.645µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 395.18µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 560.271µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 224.168µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 215.859µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 356.434µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 210.353µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 182.816µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 280.349µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 173.61µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 234.831µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 250.42µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 198.385µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 205.426µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 434.023µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 319.439µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 185.003µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 185.342µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 178.348µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 227.511µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 168.064µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 319.753µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 176.742µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 828.803µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 220.773µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 445.961µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 205.373µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 386.977µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 227.274µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 219.685µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 204.942µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 228.576µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 234.483µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 293.364µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 325.133µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 202.362µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 322.341µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 476.879µs
+2019/01/14 15:33:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:24 Completed Request with  Response Time: 402.594µs
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 3.220132ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.415401ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.693565ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.392198ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.802661ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.286166ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.05252ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 3.553445ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.314175ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.185218ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.013017ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.187411ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.29657ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.81798ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.526972ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.070471ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 3.17948ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.71188ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 2.888486ms
+2019/01/14 15:33:42 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:42 Completed Request with  Response Time: 1.373151ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.278893ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.222486ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.378345ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.311761ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.69733ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.691522ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.732745ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.109022ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 3.666923ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.17227ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.272386ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.528988ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.303179ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.643799ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.439738ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.828378ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.340271ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.318795ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.455434ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.61194ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.246946ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.121224ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.388147ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.159546ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.12573ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.258842ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 3.214717ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.969739ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.187637ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.260031ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.123387ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.204354ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.19026ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.181002ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 3.567808ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.779229ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.177894ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 3.624926ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.124044ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.481235ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.773234ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.652817ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.356289ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 4.226203ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 2.559043ms
+2019/01/14 15:33:43 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:43 Completed Request with  Response Time: 1.144786ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.169883ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.252809ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.364322ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 2.594758ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.258686ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.283488ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 2.01074ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.177128ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.090767ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.363119ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.183568ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.844067ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.990949ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.539152ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 2.568315ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.198303ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.395999ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.363449ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.686615ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.251229ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.673969ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.304828ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.365737ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.822703ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.960571ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.127004ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.92771ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 2.233527ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.240719ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 4.210802ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 3.272071ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.347604ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.299309ms
+2019/01/14 15:33:44 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:44 Completed Request with  Response Time: 1.363949ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.950716ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.829641ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.255008ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.192166ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.156978ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.097424ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.879487ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.289119ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.393137ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 4.506333ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 2.43558ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.193027ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.256195ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 2.490653ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.52277ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.801131ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 2.604119ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.465991ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.281628ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 2.630582ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.238771ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.351942ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.772478ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.788132ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 2.74735ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.355102ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.201055ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.775959ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.666302ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.205913ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.227464ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.099645ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.232796ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.381248ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 3.175537ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.097532ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.104729ms
+2019/01/14 15:33:49 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:49 Completed Request with  Response Time: 1.154686ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.753777ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.348463ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.240484ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.065024ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.254308ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.815847ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.451913ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.602253ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.222398ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.340255ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.360528ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.644028ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.220559ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.095298ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.149838ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.404957ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.2206ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.197372ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.061311ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.419632ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.101559ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.084006ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.462069ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.286221ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.749548ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.12925ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.25373ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.99251ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.3004ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.195515ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.29826ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.346866ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 4.100554ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.609698ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.232725ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.506993ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.176794ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.134371ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.120698ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.129309ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.116175ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.207842ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 2.06722ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 3.968643ms
+2019/01/14 15:33:50 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:50 Completed Request with  Response Time: 1.537135ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 3.630101ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.160792ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 3.492644ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.855895ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.007948ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.937526ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.984462ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.479396ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.807045ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.667378ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.632371ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.446813ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 2.185717ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 3.323836ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.271354ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.186675ms
+2019/01/14 15:33:51 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:33:51 Completed Request with  Response Time: 1.488647ms
+2019/01/14 15:35:10 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:10 Completed Request with  Response Time: 2.21154ms
+2019/01/14 15:35:11 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:11 Completed Request with  Response Time: 1.566796ms
+2019/01/14 15:35:11 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:11 Completed Request with  Response Time: 1.496899ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.872318ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.907857ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.76745ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.272327ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.190717ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.909406ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.488129ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.744641ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.477349ms
+2019/01/14 15:35:24 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:24 Completed Request with  Response Time: 1.224979ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.507685ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.368346ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.537244ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.375919ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.068062ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.131415ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.306966ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.143332ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.849269ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.642713ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.29828ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.804201ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.22482ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.246465ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.795665ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.335134ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.206909ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.220786ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.303061ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.939983ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.389274ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.237246ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.350887ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.706097ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.038674ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.397343ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.179978ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.236532ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.17976ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.305459ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.586553ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 3.041891ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.075871ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.274008ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.173938ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.250024ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.911552ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.428587ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.339608ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 3.077645ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.351772ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 2.638998ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.055027ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.367416ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.983225ms
+2019/01/14 15:35:25 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:25 Completed Request with  Response Time: 1.113151ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.445721ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.120676ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.147841ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.908671ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.399269ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.182178ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 3.380104ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.15981ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 3.104561ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.624116ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.519342ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.510617ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.230646ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.254041ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.206517ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 4.406388ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.915764ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.59859ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.525126ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.562705ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.404308ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.551309ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.18353ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.586631ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.136469ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 3.129199ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.12883ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.852608ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.283123ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.478264ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 4.588269ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.370189ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.078645ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.22804ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 5.000352ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.609495ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.207182ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.431777ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 2.602667ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.164285ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.341619ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.265991ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 1.236159ms
+2019/01/14 15:35:26 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:26 Completed Request with  Response Time: 3.425281ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.559621ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.188841ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.422259ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.643491ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.201082ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.249242ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.716686ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.176242ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.34114ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.635048ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 3.226614ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.201845ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.201982ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.210767ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.087539ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.599487ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.962559ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.279882ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.083498ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 3.469507ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 4.400416ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.854625ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.592697ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.522059ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.247278ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 3.037778ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.254273ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.302595ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 3.053656ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.158281ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.481202ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.885626ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.680634ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.277345ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.35065ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 2.687155ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.282912ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.224379ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.597306ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 3.901702ms
+2019/01/14 15:35:55 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:55 Completed Request with  Response Time: 1.81653ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.213986ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.412101ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.948198ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.18731ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.096123ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.388756ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.464326ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.650953ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.192398ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.23432ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.322072ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.172917ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.2221ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.5681ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.747526ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 4.200933ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.548509ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 3.523529ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.484161ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.310354ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.749885ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.329863ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.275304ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.602182ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.124524ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.311222ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.898588ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.171042ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.57552ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.940782ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.361728ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.223152ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.359267ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 3.153191ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.89175ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.703785ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.687263ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.164117ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.228642ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.911074ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.21792ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.848169ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.376493ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 1.643354ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.138611ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:56 Completed Request with  Response Time: 2.744878ms
+2019/01/14 15:35:56 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 2.473868ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 2.343018ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.851475ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 2.78617ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.146818ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.163514ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.5514ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 3.617476ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.247326ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.310886ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.295499ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 3.292077ms
+2019/01/14 15:35:57 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 15:35:57 Completed Request with  Response Time: 1.18027ms
+2019/01/14 16:11:16 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:11:16 Completed Request with  Response Time: 10.20642ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 4.485791ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.15555ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.681895ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.359112ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.478797ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.412195ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.49274ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.298611ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.679258ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.815313ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.746882ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.880497ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.13114ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.221668ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.399485ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.283188ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.381175ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 4.033899ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.781522ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.495944ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.463865ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.984788ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.192347ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.348088ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.473031ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.552518ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.843545ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.570219ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.552937ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 2.03237ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.080688ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.282586ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 3.828072ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 3.027498ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 1.274868ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:03 Completed Request with  Response Time: 4.13762ms
+2019/01/14 16:13:03 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.428246ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.482051ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.489062ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.5621ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.202772ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.196522ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.074688ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.552521ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.091813ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.897707ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.67561ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.643199ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.194696ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.11992ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 4.180877ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.2086ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.751505ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.088151ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.216599ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.20356ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.59165ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.200233ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 4.01387ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.46874ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.300312ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.768109ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.627442ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.527909ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.02082ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.528562ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.15922ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.8587ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.310435ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.61503ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.948728ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.678515ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.563281ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.270101ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.625553ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.331147ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 3.560034ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.459202ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.534484ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.738206ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 2.623405ms
+2019/01/14 16:13:04 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:04 Completed Request with  Response Time: 1.835098ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 3.28533ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 2.745401ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.32909ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 4.159632ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 2.574462ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.192193ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 3.224771ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.224683ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.380105ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.221066ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.512472ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 3.128731ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.832141ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.317292ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 3.289674ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.558672ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 1.27966ms
+2019/01/14 16:13:05 
+GET	/features	Controller: FeatureController      Action: Index
+2019/01/14 16:13:05 Completed Request with  Response Time: 3.143121ms
+2019/01/14 16:13:20 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:13:20 Completed Request with  Response Time: 2.045695ms
+2019/01/14 16:14:11 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:14:11 Completed Request with  Response Time: 4.655679ms
+2019/01/14 16:17:00 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:17:00 Completed Request with  Response Time: 884.057µs
+2019/01/14 16:46:13 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:46:13 Completed Request with  Response Time: 3.824137ms
+2019/01/14 16:46:14 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:46:14 Completed Request with  Response Time: 1.050975ms
+2019/01/14 16:46:15 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:46:15 Completed Request with  Response Time: 869.04µs
+2019/01/14 16:46:26 
+GET	/fetch	Controller: EmployeeController      Action: Fetch
+2019/01/14 16:46:26 Completed Request with  Response Time: 12.382156ms

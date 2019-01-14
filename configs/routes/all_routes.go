@@ -17,10 +17,10 @@ type Routes []Route
 
 var routes =Routes{
 	Route{
-		"Controller: EmployeeController   Action: Index",
+		"Controller: EmployeeController      Action: Fetch",
 		"GET",
-		"/employees",
-		controllers.EmployeeController.Index,
+		"/fetch",
+		controllers.EmployeeController.Fetch,
 	},
 	Route{
 		"Controller: FeatureController      Action: Index",

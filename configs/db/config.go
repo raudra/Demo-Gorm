@@ -3,6 +3,7 @@ package db
 import(
 	"log"
 	"github.com/jinzhu/gorm"
+	// "reflect"
 )
 
 type Dbinterface interface{
@@ -23,13 +24,13 @@ var MysqlConn *gorm.DB
 
 func init(){
 	log.Println("Initialization the database connection")
-	intiMySql()	
+	intiMySql()
 }
 
 func intiMySql(){
 	var dbInfc Dbinterface
-	msqlConf := MysqlConf{}
-	dbInfc = &msqlConf
+	conf := MysqlConf{}
+	dbInfc =&conf
 	dbInfc.initDbConf()	
-	MysqlConn = msqlConf.Conn
+	MysqlConn =conf.Conn
 }

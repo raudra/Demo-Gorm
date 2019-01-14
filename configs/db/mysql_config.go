@@ -42,3 +42,4 @@ func(self *MysqlConf)connString() string{
 	str:= fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?parseTime=true", self.DbConf.Username, self.DbConf.Password, self.DbConf.Host, self.DbConf.Port, self.DbConf.Database)
 	return str
 }
+
